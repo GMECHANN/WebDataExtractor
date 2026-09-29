@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Northstar Office Catalog</title>
+</head>
+<body>
+  <main>
+    <h1>Northstar Office Catalog</h1>
+    <p>A local demonstration document bundled with Web Data Extractor.</p>
+
+    <section id="catalog" aria-label="Product cards">
+      <article class="product-card" data-sku="NS-101">
+        <h2 class="product-title">Ergonomic Desk Lamp</h2>
+        <span class="price">$42.00</span><span class="rating" title="4.8 out of 5">4.8</span>
+        <a class="details" href="/products/desk-lamp">View details</a>
+        <img src="/images/desk-lamp.jpg" alt="Desk lamp">
+      </article>
+      <article class="product-card" data-sku="NS-102">
+        <h2 class="product-title">Oak Monitor Stand</h2>
+        <span class="price">$58.50</span><span class="rating" title="4.6 out of 5">4.6</span>
+        <a class="details" href="/products/monitor-stand">View details</a>
+        <img src="/images/monitor-stand.jpg" alt="Monitor stand">
+      </article>
+      <article class="product-card" data-sku="NS-103">
+        <h2 class="product-title">Mechanical Keyboard</h2>
+        <span class="price">$89.00</span><span class="rating" title="4.9 out of 5">4.9</span>
+        <a class="details" href="/products/keyboard">View details</a>
+        <img src="/images/keyboard.jpg" alt="Keyboard">
+      </article>
+      <article class="product-card" data-sku="NS-104">
+        <h2 class="product-title">Felt Desk Mat</h2>
+        <span class="price">$29.00</span><span class="rating" title="4.5 out of 5">4.5</span>
+        <a class="details" href="/products/desk-mat">View details</a>
+        <img src="/images/desk-mat.jpg" alt="Desk mat">
+      </article>
+    </section>
+
+    <table id="inventory">
+      <caption>Current inventory</caption>
+      <thead><tr><th>SKU</th><th>Product</th><th>Stock</th><th>Warehouse</th></tr></thead>
+      <tbody>
+        <tr><td>NS-101</td><td>Ergonomic Desk Lamp</td><td>34</td><td>Lima</td></tr>
+        <tr><td>NS-102</td><td>Oak Monitor Stand</td><td>18</td><td>Arequipa</td></tr>
+        <tr><td>NS-103</td><td>Mechanical Keyboard</td><td>41</td><td>Lima</td></tr>
+        <tr><td>NS-104</td><td>Felt Desk Mat</td><td>0</td><td>Trujillo</td></tr>
+      </tbody>
+    </table>
+
+    <ul id="categories">
+      <li><a href="/category/lighting">Lighting</a></li>
+      <li><a href="/category/accessories">Desk accessories</a></li>
+      <li><a href="/category/input-devices">Input devices</a></li>
+    </ul>
+  </main>
+</body>
+</html>
